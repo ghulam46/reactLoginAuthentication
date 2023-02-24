@@ -1,7 +1,10 @@
 import React from "react";
+import '../App.css';
 
 export default function Preferences () {
     return(
-        <h2>Preferences</h2>
+        <div className="App">
+            <h2>You're in Preferences Pages</h2>
+        </div>
     );
 }

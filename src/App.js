@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="wrapper">
-      <h1>Application</h1>
+      <h1 className='App'>Basic Application Login</h1>
       <Router>
         <Routes>
           <Route path='/dashboard' element={<Dashboard/>} />
