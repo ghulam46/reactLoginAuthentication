@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Login.css';
 import PropTypes from "prop-types";
 
+
 async function loginUser(credentials) {
     return fetch('http://localhost:3001/login', {
       method: 'POST',
